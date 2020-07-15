@@ -1,10 +1,10 @@
 <?php
-//autoload classes ,include functions
+//autoload classes 
 session_start();
 // array of different configs -
 $GLOBALS['config'] = array (
     'mysql'=>array(
-        'host' => '127.0.0.1:3308',
+        'host' => '127.0.0.1:3308', // dfined port etc
         'username' =>'root',
         'password'=> '',
         'db'=>'dburs'
